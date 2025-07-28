@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Error handling for missing files
 - Dynamic report naming based on input file
 
-## [1.0.0] - 2024-12-19
+## [1.0.0] - 2025/7/28
 
 ### Added
 - Initial project setup
