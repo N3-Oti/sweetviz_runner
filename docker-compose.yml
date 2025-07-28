@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sweetviz_app:
+    build: .
+    container_name: sweetviz_container
+    volumes:
+      # ホストのinputフォルダをコンテナの/app/inputにマウント
+      - ./input:/app/input   # 対象csvファイルを配置
+      # ホストのoutputフォルダをコンテナの/app/outputにマウント
+      - ./output:/app/output
+    command: python sweetviz_runner.py
